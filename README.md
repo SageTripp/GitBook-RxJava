@@ -1,3 +1,4 @@
-# My Awesome Book
+# RxJava基础知识
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+这里主要讲解RxJava的基础入门知识,没有高深的应用,同时会搜集一些网络上的demo加深理解.
+
