@@ -1,6 +1,6 @@
 # 第一章 初识RxJava
 
-# \#\# 什么是RxJava
+## 什么是RxJava
 
 所谓Rx就是指ReactiveX
 
