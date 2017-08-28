@@ -2,13 +2,11 @@
 
 ## 什么是RxJava
 
-所谓Rx就是指ReactiveX
+RxJava在其github上的定义
 
-> Rx是一个函数库，让开发者可以利用可观察序列和LINQ风格查询操作符来编写异步和基于事件的程序
-
-通俗的说
-
-> Rx是微软.NET的一个响应式扩展。Rx借助`可观测的序列`提供一种简单的方式来创建`异步的`，`基于事件驱动`的程序。
+> a library for composing asynchronous and event-based programs using observable sequences for the Java VM
+>
+> 一个在 Java VM 上使用`可观测的序列`来组成`异步`的、`基于事件`的程序的库
 
 
 
