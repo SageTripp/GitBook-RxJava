@@ -31,7 +31,7 @@ Observer<? super XXX> observer = new Observer<XXX>(){
 }
 ```
 
-在上边的代码中，·observer·是一个
+在上边的代码中，`observer`是一个观察者对象，在`observer`当中有过一个`onError` 方法，用来统一处理在整个事件流过程中出现的所有异常。
 
 ### 线程调度
 
