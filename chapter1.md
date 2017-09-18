@@ -35,6 +35,19 @@ Observer<? super XXX> observer = new Observer<XXX>(){
 
 ### 线程调度
 
+RxJava中的另外一大优势就是对线程的调度，使用RxJava的时候切换线程是一件相当方便与优雅的事情。
+
+线程的调度主要使用两个方法`subscribeOn` ,`observeOn` 这两个方法分别指定了数据源发射的线程和事件处理的线程。
+
+```java
+someThingUseRx()
+    .subscribeOn(Schedus.newThread())
+    ...//一些RxJava操作符
+    .observeOn(AndroidSchecus.mainThread())
+    ...//一些RxJava操作符
+    .subscribe(observer);
+```
+
 ### 链式调用
 
 
