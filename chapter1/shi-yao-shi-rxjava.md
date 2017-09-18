@@ -8,5 +8,5 @@ RxJava在其github上的定义
 
 ## ![](/assets/观察者模式.png)
 
-
+未完待续。。。
 
